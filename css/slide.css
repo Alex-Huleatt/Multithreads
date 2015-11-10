@@ -1,0 +1,32 @@
+.SlideContainer {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Slides {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.Slides > div {
+    float: left;
+    height: 100%;
+    overflow: scroll;
+}
+
+.Slides .Content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Slides .Content a {
+    font-size: 30px;
+}
